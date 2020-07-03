@@ -24,8 +24,7 @@
 //        Cat one = applicationContext.getBean(Cat.class);
 //        Cat two = applicationContext.getBean(Cat.class);
 //
-//        Assert.assertNotSame(one, two);
-//        Assert.assertSame("Тест провален, не корректная настройка бина Cat", tree, leaf);
-//        Assert.assertNotSame("Тест провален, не корректная настройка бина HelloWorld", one, two);
+//        Assert.assertSame("Тест провален, не корректная настройка бина HelloWorld", tree, leaf);
+//        Assert.assertNotSame("Тест провален, не корректная настройка бина Cat", one, two);
 //    }
 //}
